@@ -1,0 +1,4 @@
+__pycache__/
+build/
+polling_bot.egg-info/
+dist/
