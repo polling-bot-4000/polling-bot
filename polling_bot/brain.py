@@ -23,5 +23,5 @@ class GitHubClient:
         url = 'https://api.github.com/repos/%s/%s/issues' % (owner, repo)
         r = requests.post(url,
             json={'title': title, 'body': body},
-            headers = {'Authorization': 'token %s' % (self.api_key)}
+            headers={'Authorization': 'token %s' % (self.api_key)}
         )
